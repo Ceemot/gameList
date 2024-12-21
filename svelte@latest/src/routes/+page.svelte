@@ -4,24 +4,27 @@
 
 <div class="container">
   <div class="header">
-    <h1>Gallery</h1>
+    <h1>Game List</h1>
     <div class="input-container">
       <input type="text" class="input" />
-      <button class="button" on:click={handleFetch}>Fetch Photos</button>
+      <button class="button" on:click={handleFetch}>Button</button>
     </div>
   </div>
 
   <div class="photos">
-    <img src={""} alt={""} class={"image"} />
-    <img src={""} alt={""} class={"image"} />
-    <img src={""} alt={""} class={"image"} />
-    <img src={""} alt={""} class={"image"} />
-    <img src={""} alt={""} class={"image"} />
-    <img src={""} alt={""} class={"image"} />
+    <img src={"src/Images/test.png"} alt={""} class={"image"} />
+    <img src={"src/Images/test.png"} alt={""} class={"image"} />
+    <img src={"src/Images/test.png"} alt={""} class={"image"} />
+    <img src={"src/Images/test.png"} alt={""} class={"image"} />
+    <img src={"src/Images/test.png"} alt={""} class={"image"} />
+    <img src={"src/Images/test.png"} alt={""} class={"image"} />
   </div>
 </div>
 
 <style>
+  :root {
+    color-scheme: dark light;
+  }
   .image {
     width: 400px;
     height: 250px;
@@ -34,7 +37,6 @@
   .container {
     width: 1230px;
     margin: 0 auto;
-    background-color: blue;
   }
   .header {
     text-align: center;
